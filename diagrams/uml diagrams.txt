@@ -1,0 +1,33 @@
+titleScreen
+ playGame()
+ optionsChange()
+
+optionsScreen
+ 
+
+gameScreen
+ topDeck
+ bottomDeck
+ shuffleDecks()
+ topHand
+ bottomHand
+ centerField
+
+field
+ centerCards[]
+
+hand(deck)
+ cards[3]
+ deck
+ drawCard(int n)
+ discardCard(int n, cards[])
+ swipeCard(int n)
+
+card(ID)
+ bugName
+ animation
+ cardDescription
+ dict of cards to interact with : and interaction thereof
+
+deck
+ cards[16]
