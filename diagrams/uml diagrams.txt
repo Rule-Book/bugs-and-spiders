@@ -3,7 +3,7 @@ titleScreen
  optionsChange()
 
 optionsScreen
- 
+ setVolume()
 
 gameScreen
  topDeck
@@ -15,6 +15,9 @@ gameScreen
 
 field
  centerCards[]
+ isPlayersTurn
+ newCardEnteringPile
+ processCenterCardInteractions() func will loop through each possible interaction for each card assessing them by accessing card attributes to see if interaction should occur (ie fly card would have an attribute: BOOL sticksToWeb = true)
 
 hand(deck)
  cards[3]
